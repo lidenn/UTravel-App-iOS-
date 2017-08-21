@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17991D401F4281F2007E2AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17991D3F1F4281F2007E2AF1 /* AppDelegate.swift */; };
 		17991D421F4281F2007E2AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17991D411F4281F2007E2AF1 /* ViewController.swift */; };
 		17991D451F4281F2007E2AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17991D431F4281F2007E2AF1 /* Main.storyboard */; };
 		17991D471F4281F2007E2AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17991D461F4281F2007E2AF1 /* Assets.xcassets */; };
 		17991D4A1F4281F2007E2AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17991D481F4281F2007E2AF1 /* LaunchScreen.storyboard */; };
+		17CBF66A1F454BAA00525F04 /* CitiesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBF6691F454BAA00525F04 /* CitiesTableView.swift */; };
+		17DBF7AB1F42EB2800170FA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17991D3F1F4281F2007E2AF1 /* AppDelegate.swift */; };
+		17DBF7AD1F43A47A00170FA6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 17DBF7AC1F43A47A00170FA6 /* Podfile */; };
+		9F20D2031E735FED8AF74DFF /* libPods-UTravel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12473F9F2D0F61F26E075AF7 /* libPods-UTravel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12473F9F2D0F61F26E075AF7 /* libPods-UTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1376FCE46E387E5B6AE59AE4 /* Pods-UTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTravel/Pods-UTravel.debug.xcconfig"; sourceTree = "<group>"; };
 		17991D3C1F4281F2007E2AF1 /* UTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17991D3F1F4281F2007E2AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17991D411F4281F2007E2AF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		17991D461F4281F2007E2AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17991D491F4281F2007E2AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17991D4B1F4281F2007E2AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CBF6691F454BAA00525F04 /* CitiesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesTableView.swift; sourceTree = "<group>"; };
+		17DBF7AC1F43A47A00170FA6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB33ED6ECD09276778C061E9 /* Pods-UTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-UTravel/Pods-UTravel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F20D2031E735FED8AF74DFF /* libPods-UTravel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +47,11 @@
 		17991D331F4281F2007E2AF1 = {
 			isa = PBXGroup;
 			children = (
+				17DBF7AC1F43A47A00170FA6 /* Podfile */,
 				17991D3E1F4281F2007E2AF1 /* UTravel */,
 				17991D3D1F4281F2007E2AF1 /* Products */,
+				20A89BE47C51C3D560C3C3F4 /* Frameworks */,
+				FD718F34342B0B9CB1B47EC0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +69,29 @@
 				17991D3F1F4281F2007E2AF1 /* AppDelegate.swift */,
 				17991D411F4281F2007E2AF1 /* ViewController.swift */,
 				17991D431F4281F2007E2AF1 /* Main.storyboard */,
+				17CBF6691F454BAA00525F04 /* CitiesTableView.swift */,
 				17991D461F4281F2007E2AF1 /* Assets.xcassets */,
 				17991D481F4281F2007E2AF1 /* LaunchScreen.storyboard */,
 				17991D4B1F4281F2007E2AF1 /* Info.plist */,
 			);
 			path = UTravel;
+			sourceTree = "<group>";
+		};
+		20A89BE47C51C3D560C3C3F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12473F9F2D0F61F26E075AF7 /* libPods-UTravel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD718F34342B0B9CB1B47EC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1376FCE46E387E5B6AE59AE4 /* Pods-UTravel.debug.xcconfig */,
+				FB33ED6ECD09276778C061E9 /* Pods-UTravel.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17991D4E1F4281F2007E2AF1 /* Build configuration list for PBXNativeTarget "UTravel" */;
 			buildPhases = (
+				6C3AD2FE363E086BF767040C /* [CP] Check Pods Manifest.lock */,
 				17991D381F4281F2007E2AF1 /* Sources */,
 				17991D391F4281F2007E2AF1 /* Frameworks */,
 				17991D3A1F4281F2007E2AF1 /* Resources */,
+				BC731037DEB8D5D226052433 /* [CP] Embed Pods Frameworks */,
+				8073506CC62932613F599877 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +129,7 @@
 				TargetAttributes = {
 					17991D3B1F4281F2007E2AF1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DY4Z56QSR7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +159,77 @@
 			files = (
 				17991D4A1F4281F2007E2AF1 /* LaunchScreen.storyboard in Resources */,
 				17991D471F4281F2007E2AF1 /* Assets.xcassets in Resources */,
+				17DBF7AD1F43A47A00170FA6 /* Podfile in Resources */,
 				17991D451F4281F2007E2AF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C3AD2FE363E086BF767040C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8073506CC62932613F599877 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UTravel/Pods-UTravel-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTravel/Pods-UTravel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC731037DEB8D5D226052433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTravel/Pods-UTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17991D381F4281F2007E2AF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CBF66A1F454BAA00525F04 /* CitiesTableView.swift in Sources */,
+				17DBF7AB1F42EB2800170FA6 /* AppDelegate.swift in Sources */,
 				17991D421F4281F2007E2AF1 /* ViewController.swift in Sources */,
-				17991D401F4281F2007E2AF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,25 +352,35 @@
 		};
 		17991D4F1F4281F2007E2AF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1376FCE46E387E5B6AE59AE4 /* Pods-UTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY4Z56QSR7;
 				INFOPLIST_FILE = UTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DennisLi.UTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		17991D501F4281F2007E2AF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB33ED6ECD09276778C061E9 /* Pods-UTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY4Z56QSR7;
 				INFOPLIST_FILE = UTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DennisLi.UTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -301,6 +403,7 @@
 				17991D501F4281F2007E2AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
